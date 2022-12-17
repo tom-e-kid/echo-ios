@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "echo-toolbox",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/tom-e-kid/echo-toolbox.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "8b6d9b4ee9a8f25baf95ed98a6c152622214cac5"
+      }
+    }
+  ],
+  "version" : 2
+}

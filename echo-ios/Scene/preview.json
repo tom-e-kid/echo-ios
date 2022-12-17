@@ -1,0 +1,14 @@
+{
+    "message": {
+        "id": "1850ad229a036c",
+        "text": "hi there! hey there. hi there? hi there? hello world? hi there? hello world. hey there? hey there? hello there! hey there. hey there? hey world? hey world? hi there! hey world! hey there? hello there. hello there! hi world? hi there! hi there.",
+        "by": {
+          "id": "1850ad229a117e",
+          "email": "david@hoge.bz",
+          "name": "david",
+          "thumbnail": "http://localhost:3000/images/256/hex_f621cf_f621cf.jpeg"
+        },
+        "created": "2022-12-06T09:30:23.521Z",
+        "updated": "2022-12-12T09:30:23.521Z"
+    }
+}

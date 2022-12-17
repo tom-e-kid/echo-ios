@@ -1,0 +1,77 @@
+{
+    "first-page": {
+        "statusCode": 200,
+        "body": {
+            "__meta__": {
+                "messages": {
+                    "l": {
+                        "count": 20
+                    }
+                }
+            },
+            "messages": {
+                "id": "--id",
+                "text": "--lorem@@16:256",
+                "by": {
+                    "id": "--id",
+                    "email": "--email@@name",
+                    "name": "--name",
+                    "thumbnail": "--image@@/128/hex_FFD60A_FFD60A.png"
+                },
+                "created": "--iso@@-604800",
+                "updated": "--iso@@-86400"
+            },
+            "page": {
+                "hasNextPage": true,
+                "cursor": "--id"
+            }
+        },
+        "error": {
+          "errors": [
+            {
+              "message": "Something went wrong 🤖"
+            }
+          ]
+        },
+        "options": {
+            "duration": 0
+        }
+    },
+    "last-page": {
+        "statusCode": 200,
+        "body": {
+            "__meta__": {
+                "messages": {
+                    "l": {
+                        "count": 20
+                    }
+                }
+            },
+            "messages": {
+                "id": "--id",
+                "text": "--lorem@@16:256",
+                "by": {
+                    "id": "--id",
+                    "email": "--email@@name",
+                    "name": "--name",
+                    "thumbnail": "--image@@/128/hex_FFD60A_FFD60A.png"
+                },
+                "created": "--iso@@-604800",
+                "updated": "--iso@@-86400"
+            },
+            "page": {
+                "hasNextPage": false
+            }
+        },
+        "error": {
+          "errors": [
+            {
+              "message": "Something went wrong 🤖"
+            }
+          ]
+        },
+        "options": {
+            "duration": 3000
+        }
+    }
+}
