@@ -54,7 +54,7 @@ struct Banner: View {
                     Image(systemName: "xmark")
                 }
             }
-        }
+        } //: HStack
         .font(.subheadline)
         .fontWeight(.regular)
         .foregroundColor(.white)

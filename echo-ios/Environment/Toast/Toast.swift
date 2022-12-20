@@ -30,6 +30,7 @@ struct ToastProviderViewModifier: ViewModifier {
             content
             
             VStack {
+                Spacer()
                 ForEach(notifications) { notification in
                     Banner(notification: notification) {
                         withAnimation {
@@ -39,10 +40,9 @@ struct ToastProviderViewModifier: ViewModifier {
                     .zIndex(1)
                     .transition(.move(edge: .trailing))
                 }
-                Spacer()
-            }
+            } //: VStack
             .padding(EdgeInsets(top: 8, leading: 16, bottom: 16, trailing: 8))
-        }
+        } //: ZStack
         .onChange(of: context.queue) { newValue in
             guard !newValue.isEmpty else {
                 return
